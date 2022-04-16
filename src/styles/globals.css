@@ -145,8 +145,6 @@ button {
   font-size: 14px;
 }
 
-
-
 .btn-primary,
 .btn-solid {
   font-weight: 600;
@@ -168,11 +166,11 @@ button {
 }
 
 .btn-6 {
- @apply flex items-center justify-center gap-2.5 btn-solid mb-3;
- padding: 10px 25px;
+  @apply flex items-center justify-center gap-2.5 btn-solid mb-3;
+  padding: 10px 25px;
 }
 @media only screen and (max-width: 500px) {
-  .btn-6  {
+  .btn-6 {
     @apply gap-2;
     padding: 8px 20px;
   }
@@ -361,6 +359,7 @@ body::-webkit-scrollbar {
   font-size: 14px;
   color: #535353;
   font-family: inherit;
+  background-color: #ffffff;
 }
 
 .input-ele:focus,
@@ -471,7 +470,7 @@ body::-webkit-scrollbar {
   }
 }
 
-.playing-screen{
+.playing-screen {
   @apply flex pt-6;
 }
 @media only screen and (max-width: 800px) {
