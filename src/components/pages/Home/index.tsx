@@ -85,7 +85,7 @@ const Home: React.FC<Props> = () => {
 
                   <Button
                     onClick={() => connectCoin()}
-                    className="flex items-center justify-center gap-2.5 btn-solid mb-3.5"
+                    className="btn-solid btn-6"
                   >
                     {loadingCoinbase ? (
                       "Connecting......"

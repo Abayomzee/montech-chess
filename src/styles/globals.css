@@ -145,6 +145,8 @@ button {
   font-size: 14px;
 }
 
+
+
 .btn-primary,
 .btn-solid {
   font-weight: 600;
@@ -163,6 +165,17 @@ button {
 
 .btn-with-line {
   text-decoration: underline;
+}
+
+.btn-6 {
+ @apply flex items-center justify-center gap-2.5 btn-solid mb-3;
+ padding: 10px 25px;
+}
+@media only screen and (max-width: 500px) {
+  .btn-6  {
+    @apply gap-2;
+    padding: 8px 20px;
+  }
 }
 
 .navbar__nav {
