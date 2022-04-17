@@ -40,7 +40,7 @@ const CompletedGamesTable: React.FC<Props> = (props) => {
        winner: "Ox449...103429",
        amountWon: "0.003 ETH",
        dateEnded: "04/04/2022",
-       actions: <TableActions />,
+       actions: <TableActions disableRequest={true} />,
      },
      {
        id: "2",
@@ -49,7 +49,7 @@ const CompletedGamesTable: React.FC<Props> = (props) => {
        winner: "Ox449...103429",
        amountWon: "0.003 ETH",
        dateEnded: "04/04/2022",
-       actions: <TableActions />,
+       actions: <TableActions disableRequest={true} />,
      },
      {
        id: "3",
@@ -58,7 +58,7 @@ const CompletedGamesTable: React.FC<Props> = (props) => {
        winner: "Ox449...103429",
        amountWon: "0.003 ETH",
        dateEnded: "04/04/2022",
-       actions: <TableActions />,
+       actions: <TableActions disableRequest={true} />,
      },
      {
        id: "4",
@@ -67,7 +67,7 @@ const CompletedGamesTable: React.FC<Props> = (props) => {
        winner: "Ox449...103429",
        amountWon: "0.003 ETH",
        dateEnded: "04/04/2022",
-       actions: <TableActions />,
+       actions: <TableActions disableRequest={true} />,
      },
      {
        id: "5",
@@ -76,7 +76,7 @@ const CompletedGamesTable: React.FC<Props> = (props) => {
        winner: "Ox449...103429",
        amountWon: "0.003 ETH",
        dateEnded: "04/04/2022",
-       actions: <TableActions />,
+       actions: <TableActions disableRequest={true} />,
      },
      {
        id: "6",
@@ -85,7 +85,7 @@ const CompletedGamesTable: React.FC<Props> = (props) => {
        winner: "Ox449...103429",
        amountWon: "0.003 ETH",
        dateEnded: "04/04/2022",
-       actions: <TableActions />,
+       actions: <TableActions disableRequest={true} />,
      },
    ];
 

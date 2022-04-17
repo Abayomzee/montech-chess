@@ -104,6 +104,11 @@ button {
   color: #ffffff;
 }
 
+.btn-1:disabled {
+  background-color: #bfbfbf;
+  cursor: not-allowed;
+}
+
 .btn-2 {
   border: 1.5px solid #e1e1e1;
   border-radius: 8px;
@@ -116,6 +121,10 @@ button {
   color: #438ffe;
   border-radius: 8px;
   padding: 12px 30px;
+}
+
+.btn-3:disabled {
+  cursor: not-allowed;
 }
 
 .btn-sm {
